@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<title>Prospect Web Application Main Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+	<script src='bootstrap/js/bootstrap.min.js'></script>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-md">
+		<a class="navbar-brand" href="">Prospect</a>
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="main-navigation">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="./">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#aboutUs">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Sign Up</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#signInModal">Sign In</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<header class="page-header header container-fluid">
+		<div class="overlay"></div>
+		<div class="description">
+			<h1>PROSPECT</h1>
+			<h4 style="color: white;">Real Time Market Insight</h4>
+			<p>Cut out the noise with personalised views of data by utilising the sales modules that you need.
+				Empower your sales team to concentrate on sales and customers without getting bogged down in
+				non-essential information.</p>
+			<button class="btn btn-outline-secondary btn-lg"> Want to Join Us!</button>
+		</div>
+	</header>
+
+	<div class="container features">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<h3 class="feature-title">Sales tools</h3>
+				<img src="images/salesTools.png" class="img-fluid">
+				<p>Facilitate 1-2-1 relationships and provide your sales team with direct access to “must have”
+					information, such as sales, opportunities, orders and pricing.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<h3 class="feature-title">Mobile ready</h3>
+				<img src="images/mobileReady.jpg" class="img-fluid">
+				<p>Responsive design ensures sales activity can be accessed and updated 'on-the-go', regardless of time,
+					device or location.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<h3 class="feature-title">Get in Touch!</h3>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Name" name=""><br>
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" placeholder="Email Address" name="email"><br>
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" rows="4"></textarea>
+				</div>
+				<div><input type="submit" class="btn btn-block btn-secondary " value="Send" name=""></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="background" id="aboutUs">
+		<div class="container team">
+			<div class="row">
+				<div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+					<img class="card-img-top rounded-circle" src="images/team-image-1.png" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title">Rasika</h4>
+						<p class="card-text">Software Developer</p>
+					</div>
+				</div>
+				<div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+					<img class="card-img-top rounded-circle" src="images/team-image-1.png" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title">Kavita</h4>
+						<p class="card-text">Software Developer</p>
+					</div>
+				</div>
+				<div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+					<img class="card-img-top rounded-circle" src="images/team-image-1.png" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title">Archana</h4>
+						<p class="card-text">Software Developer</p>
+					</div>
+				</div>
+				<div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+					<img class="card-img-top rounded-circle" src="images/team-image-1.png" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title">Renuka</h4>
+						<p class="card-text">Software Developer</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<footer class="page-footer">
+		<div class="container" id="contact">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-12">
+					<h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+					<p>Responsive design ensures sales activity can be accessed and updated 'on-the-go', regardless of
+						time, device or location</p>
+					<p>Facilitate 1-2-1 relationships and provide your sales team with direct access to “must have”
+						information, such as sales, opportunities, orders and pricing.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<h6 class="text-uppercase font-weight-bold">Contact</h6>
+					<p>Infoway CDAC Center, Kothrud, Pune
+						<br>info@mywebsite.com
+						<br><i class="bi bi-whatsapp"></i> 9865324578
+						<br><i class="bi bi-telephone-inbound"></i> 7845123652
+					</p>
+				</div>
+			</div>
+
+	</footer>
+
+	<script src="jquery-3.5.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="main.js"></script>
+
+
+	<div class="modal fade" id="signInModal" data-bs-backdrop="static">
+		<div class="modal-dialog modal-dialog-centered modal-md">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">SIGN IN</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				</div>
+				<div class="modal-body">
+					<form role="form" method="POST" action="">
+						<input type="hidden" name="_token" value="">
+						<div class="form-group">
+							<label class="control-label">E-Mail Address</label>
+							<div>
+								<input type="email" class="form-control input-lg" name="email" value="">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label">Password</label>
+							<div>
+								<input type="password" class="form-control input-lg" name="password">
+							</div>
+						</div>
+						<div class="form-group">
+							<div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" name="remember"> Remember Me
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div>
+								<a class="btn btn-link" href="">Forgot Your Password?</a>
+								<button type="submit" class="btn btn-info btn-block">Login</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer text-xs-center">
+					Don't have an account? <a href="#">Sign up »</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
